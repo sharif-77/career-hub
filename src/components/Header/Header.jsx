@@ -5,7 +5,8 @@ const Header = () => {
   return (
     <div className="">
       <div className="">
-        <div className="w-4/5 m-auto bg-green-50">
+        <div className=" bg-green-50 ">
+          <div className="w-4/5 m-auto">
           <div className="flex justify-between items-center pt-5 p-5">
             <div className="text-xl font-extrabold">
               <h2>CareerHub</h2>
@@ -48,12 +49,13 @@ const Header = () => {
               <button>Start Applying</button>
             </div>
           </div>
+          </div>
         </div>
       </div>
 
       {/*  All  outlet */}
       <div className="">
-        <div className="w-4/5 m-auto">
+        <div className="m-auto">
           <Outlet />
         </div>
       </div>

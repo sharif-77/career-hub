@@ -5,10 +5,11 @@ import { useState } from "react";
 const Home = () => {
   const jobs = useLoaderData();
   const [situation,setSituation]=useState(true)
-  console.log(jobs);
+  // console.log(jobs);
   return (
-    <div>
-      <div className="flex items-center justify-between gap-5 rounded-md p-5 bg-green-50">
+    <div >
+    <div className="bg-green-50">
+    <div className="w-4/5 m-auto flex items-center justify-between gap-5 rounded-md p-5 ">
         <div className="space-y-10">
           <h1 className="text-5xl font-bold">
             One Step Closer To Your{" "}
@@ -30,6 +31,7 @@ const Home = () => {
           <img src="/src/assets/images/user.png" alt="" />
         </div>
       </div>
+    </div>
       {/* banner end */}
 
       <div className="mt-10 w-4/5 m-auto">

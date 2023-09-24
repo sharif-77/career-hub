@@ -1,0 +1,6 @@
+.bg{
+    background:  url('../../assets/images/bg1.png'),url('../../assets/images/bg2.png'),#f0fdf4;
+    background-position: 0 100%,100% 0;
+    background-size: 20%;
+    background-repeat: no-repeat;
+}

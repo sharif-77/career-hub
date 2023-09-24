@@ -1,7 +1,8 @@
 import { BiLocationPlus } from 'react-icons/bi';
 import { AiOutlineDollarCircle } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 const Item = ({ job }) => {
-  console.log(job);
+  // console.log(job);
   return (
     <div>
       <div className="card  bg-base-100 shadow-xl">
@@ -27,7 +28,7 @@ const Item = ({ job }) => {
           </div>
 
           <div className="card-actions ">
-            <button className="btn btn-primary">View Details</button>
+            <Link to={`/jobDetails/${job.id}`} ><button className="btn btn-primary">View Details</button></Link>
           </div>
         </div>
       </div>
